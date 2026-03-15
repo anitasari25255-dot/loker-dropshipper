@@ -8,46 +8,65 @@
 body{
 font-family: Arial;
 margin:0;
-background:#f5f6fa;
+background:#f5f5f5;
 }
 
 header{
-background:#1e88e5;
+background:#ee4d2d;
 color:white;
-padding:30px;
+padding:20px;
+text-align:center;
+}
+
+.banner{
+background:linear-gradient(90deg,#ff7a00,#ff3c00);
+color:white;
+padding:40px;
 text-align:center;
 }
 
 .container{
-max-width:1000px;
+max-width:1100px;
 margin:auto;
-padding:40px;
+padding:30px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
 }
 
 .card{
 background:white;
-padding:30px;
+padding:20px;
 border-radius:10px;
-margin-bottom:20px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
 }
 
-h2{
-color:#333;
+.card img{
+width:100%;
+border-radius:8px;
 }
 
 .btn{
 display:inline-block;
+margin-top:10px;
+padding:12px 20px;
 background:#25D366;
 color:white;
-padding:15px 30px;
-border-radius:8px;
+border-radius:6px;
 text-decoration:none;
-font-size:18px;
 }
 
-.btn:hover{
-background:#20b858;
+.join{
+background:white;
+padding:30px;
+border-radius:10px;
+margin-top:40px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
 .footer{
@@ -65,42 +84,59 @@ margin-top:40px;
 <body>
 
 <header>
-<h1>LOWONGAN DROPSHIPPER ONLINE</h1>
-<p>Kerja dari Rumah (WFH / Remote)</p>
+<h2>PROGRAM DROPSHIPPER ONLINE</h2>
 </header>
+
+<div class="banner">
+<h1>Gabung Jadi Dropshipper</h1>
+<p>Kerja dari Rumah • Tanpa Stok Barang • Sistem Mudah</p>
+</div>
 
 <div class="container">
 
+<h2>Contoh Produk</h2>
+
+<div class="products">
+
 <div class="card">
-<h2>Tentang Pekerjaan</h2>
-<p>Kami membuka kesempatan bagi siapa saja yang ingin bergabung sebagai dropshipper untuk membantu memasarkan produk secara online melalui sistem yang telah disediakan.</p>
+<img src="https://via.placeholder.com/200">
+<h3>Produk Skincare</h3>
+<p>Harga Kompetitif</p>
 </div>
 
 <div class="card">
-<h2>Tugas Pekerjaan</h2>
-<ul>
-<li>Mempromosikan produk melalui media sosial</li>
-<li>Meneruskan pesanan pembeli kepada tim</li>
-<li>Membantu proses transaksi online</li>
-</ul>
+<img src="https://via.placeholder.com/200">
+<h3>Produk Fashion</h3>
+<p>Trend Terbaru</p>
 </div>
 
 <div class="card">
-<h2>Persyaratan</h2>
-<ul>
-<li>Usia minimal 18 tahun</li>
-<li>Memiliki HP / Laptop</li>
-<li>Koneksi internet stabil</li>
-<li>Aktif menggunakan media sosial</li>
-</ul>
+<img src="https://via.placeholder.com/200">
+<h3>Produk Kecantikan</h3>
+<p>Produk Populer</p>
 </div>
 
-<div class="card" style="text-align:center;">
-<h2>Daftar Sekarang</h2>
-<p>Hubungi WhatsApp untuk informasi dan pendaftaran.</p>
+<div class="card">
+<img src="https://via.placeholder.com/200">
+<h3>Produk Lifestyle</h3>
+<p>Banyak Dicari</p>
+</div>
 
-<a class="btn" href="https://wa.me/6282379882924?text=Halo%20saya%20ingin%20info%20dropshipper">
-Chat WhatsApp
+</div>
+
+<div class="join">
+
+<h2>Ingin Bergabung?</h2>
+
+<p>
+✔ Tanpa stok barang<br>
+✔ Kerja dari rumah<br>
+✔ Promosi melalui media sosial<br>
+✔ Sistem dropship mudah
+</p>
+
+<a class="btn" href="https://wa.me/6282379882924?text=Halo%20saya%20ingin%20join%20dropshipper">
+Daftar via WhatsApp
 </a>
 
 </div>
@@ -108,7 +144,7 @@ Chat WhatsApp
 </div>
 
 <div class="footer">
-© 2026 Lowongan Dropshipper Online
+© 2026 Program Dropshipper
 </div>
 
 </body>
